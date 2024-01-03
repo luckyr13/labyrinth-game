@@ -14,7 +14,7 @@ You can play a demo here: https://labyrinth-bgd.pages.dev/
  - Breadth First Search
 
 ## How to install locally
-Run:
+Clone the repo and then run:
 
 `npm install`
 
