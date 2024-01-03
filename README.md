@@ -5,7 +5,13 @@
 # Labyrinth
  A Maze game made in Typescript with Phaser 3.
 
- ## Algorithms
+## Algorithms
  - Depth First Search
  - Greedy Best-First Search
  - Breadth First Search
+
+## How to install locally
+Run:
+`npm install`
+`npm run dev`
+
