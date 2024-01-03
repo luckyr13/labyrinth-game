@@ -12,6 +12,8 @@
 
 ## How to install locally
 Run:
+
 `npm install`
+
 `npm run dev`
 
