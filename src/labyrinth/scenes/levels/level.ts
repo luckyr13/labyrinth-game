@@ -829,7 +829,8 @@ export class Level extends Phaser.Scene
       'moonlight-sonata-adagio',
       'symphony-5',
       'concerto-winter',
-      'toccata-and-fugue'
+      'toccata-and-fugue',
+      'wwv-86b'
     ]
     const m = Phaser.Math.Between(0, music.length - 1)
     if (this._bgMusic) {

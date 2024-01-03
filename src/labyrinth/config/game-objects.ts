@@ -19,7 +19,9 @@ export class GameObjects {
     scene.load.audio('toccata-and-fugue', [
         'assets/audio/Toccata and Fugue in Dm, BWV 565.mp3'
     ])
-
+    scene.load.audio('wwv-86b', [
+        'assets/audio/Die Walküre, WWV 86B - Fantasie.mp3'
+    ])
 
     scene.load.audio('motor-loop', [
         'assets/audio/motor-loop.wav'
