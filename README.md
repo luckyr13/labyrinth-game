@@ -20,3 +20,6 @@ Clone the repo and then run:
 
 `npm run dev`
 
+## Screenshots
+![image](https://github.com/luckyr13/labyrinth-game/assets/7094823/cf350805-ded7-442d-9374-62dec0cf0588)
+
