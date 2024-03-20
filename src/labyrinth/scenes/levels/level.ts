@@ -823,15 +823,13 @@ export class Level extends Phaser.Scene
   }
 
   setBgMusic() {
-    const music = [
-      'fur-elise',
-      'moonlight-sonata-presto',
-      'moonlight-sonata-adagio',
-      'symphony-5',
-      'concerto-winter',
-      'toccata-and-fugue',
-      'wwv-86b'
+    const music: string[] = [
+      
     ]
+    if (music.length === 0) {
+      return
+    }
+    
     const m = Phaser.Math.Between(0, music.length - 1)
     if (this._bgMusic) {
       this._bgMusic.destroy()

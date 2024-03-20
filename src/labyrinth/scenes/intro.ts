@@ -40,6 +40,7 @@ export class Intro extends Phaser.Scene
 
         // Music
         // Add background music
+        /*
         this.bgMusic = this.sound.add('moonlight-sonata-presto');
         // Play bg music
         const musicConfig = { 
@@ -47,7 +48,7 @@ export class Intro extends Phaser.Scene
             detune: 0, seek: 0, loop: true, delay: 0 
         };
         this.bgMusic.play(musicConfig);
-     
+        */
 
         // Start
         // this.add.bitmapText()

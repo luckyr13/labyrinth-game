@@ -1,27 +1,6 @@
 export class GameObjects {
   public loadSounds(scene: Phaser.Scene): void {
-    // Audio
-    scene.load.audio('fur-elise', [
-        'assets/audio/Bagatelle no. 25 Fur Elise, WoO 59.mp3'
-    ])
-    scene.load.audio('moonlight-sonata-presto', [
-        'assets/audio/Paul Pitman - Moonlight Sonata Op. 27 No. 2 - III. Presto.mp3'
-    ])
-    scene.load.audio('moonlight-sonata-adagio', [
-        'assets/audio/Paul Pitman - Moonlight Sonata, Op. 27 No. 2 - I. Adagio sostenuto.mp3'
-    ])
-    scene.load.audio('symphony-5', [
-        'assets/audio/Symphony no. 5 in Cm, Op. 67 - I. Allegro con brio.mp3'
-    ])
-    scene.load.audio('concerto-winter', [
-        'assets/audio/Violin Concerto in F minor, RV 297 Winter.mp3'
-    ])
-    scene.load.audio('toccata-and-fugue', [
-        'assets/audio/Toccata and Fugue in Dm, BWV 565.mp3'
-    ])
-    scene.load.audio('wwv-86b', [
-        'assets/audio/Die Walküre, WWV 86B - Fantasie.mp3'
-    ])
+    // Audio 
 
     scene.load.audio('motor-loop', [
         'assets/audio/motor-loop.wav'
